@@ -6,6 +6,7 @@ This section has two main parts: the Arduino code and the Richwave library.
 
 This folder includes the three parts of the code. They must be in the same folder at the time of compiling and uploading, otherwise it will not work. There is only one compiler directive that affects the switching speed between the modules:
 > "DISABLE_FILTERING"
+
 This can be left commented to provide a more conservative switching speed (omnidirectional + directional antenna setup) or it can be uncommented to provide higher switching speeds (dual omni antennas).
 
 ## Richwave Library
