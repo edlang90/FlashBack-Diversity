@@ -20,7 +20,7 @@ Credits:
 
 You might want to get started with ordering the PCB. The [Gerber files](Hardware/) can be found in the Hardware folder, which you can download and send to your favorite PCB manufacturer (I used JLCPCB but I'm sure any company will work fine, there are no tight design tolerances).
 
-There is a [Bill of Materials](Hardware/Flashback BOM.csv) also in the Hardware folder of this repo with the list of required components. This list was taken for LCSC, but I believe these components can be easily found elsewhere. Please note that some of the components listed are for an inbuilt OLED display which was not implemented for this design. 
+There is a [Bill of Materials](Hardware/) also in the Hardware folder of this repo with the list of required components. This list was taken for LCSC, but I believe these components can be easily found elsewhere. Please note that some of the components listed are for an inbuilt OLED display which was not implemented for this design. 
 
 Additionaly, you need an 7 pin SPI OLED display module. The one used for this project is the 0.96" variant. An example of this display can be found [here](https://www.amazon.com/SSD1306-Display-MELIFE-Module-Arduino/dp/B087CW1YLK/ref=pd_sbs_1?pd_rd_w=rV6xU&pf_rd_p=de2765fe-65e5-4a88-aaad-a915dea49c67&pf_rd_r=RHG0ZNF5RSFNCNAR30E6&pd_rd_r=2ea41d08-5479-4dc0-b115-c3add2fa5a12&pd_rd_wg=ytx24&pd_rd_i=B087CW1YLK&psc=1).
 
