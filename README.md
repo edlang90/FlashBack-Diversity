@@ -18,7 +18,7 @@ Credits:
 
 ### 1. Purchase components
 
-You might want to get started with ordering the PCB. The [Gerber files](Hardware/Flashback Gerber.zip) can be found in the Hardware folder, which you can download and send to your favorite PCB manufacturer (I used JLCPCB but I'm sure any company will work fine, there are no tight design tolerances).
+You might want to get started with ordering the PCB. The [Gerber files](Hardware/) can be found in the Hardware folder, which you can download and send to your favorite PCB manufacturer (I used JLCPCB but I'm sure any company will work fine, there are no tight design tolerances).
 
 There is a [Bill of Materials](Hardware/Flashback BOM.csv) also in the Hardware folder of this repo with the list of required components. This list was taken for LCSC, but I believe these components can be easily found elsewhere. Please note that some of the components listed are for an inbuilt OLED display which was not implemented for this design. 
 
