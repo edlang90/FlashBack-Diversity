@@ -4,7 +4,6 @@ This project started out as a desire for a low cost diversity that would have go
 
 Designed to interface with TBS Fusion [Hardware Upgrade](https://www.team-blacksheep.com/products/prod:fusion_hwupgrade)
 
-[PCB Front](Hardware/Pictures/PCB back.png)
 
 ## Features
 - Diversity
@@ -28,7 +27,13 @@ The last thing you will need is one of the TBS Fusion hardware upgrade modules t
 
 ### 2. Solder everything (except for the OLED!!)
 
+Now you can solder all of the SMD components. Most of these are 0402 so you'll need a steady hand, but it's not impossible to do. Use the values for each component found in the "values front" and "values back" images in the [Pictures folder](Hardware/Pictures/). Double check polarity for the diodes and triple check polarity for the ICs! Take your time and check for shorts often.
+
 ### 3. Program the microcontroller
+
+Programming the microcontroller is very straightforward. The PCB was designed to work as a STM32 Blue Pill, so you must select this option when programming it. It must be done in two steps:
+1. Flash the Arduino bootloader using the SWD pins on the PCB, and one of those ST Link emulators like [these](https://www.amazon.com/st-link-v2/s?k=st-link+v2). There are plenty of tutorials for flashing the Arduino Bootloader into an STM32 Blue Pill out there already, so I'll save myself some time.
+2. Now you can program the module through the micro USB port. Flash the [Flashback code](Code/Flashback/) as if it were a regular STM32 Blue Pill.
 
 ### 4. Final assembly
 
@@ -42,4 +47,4 @@ The process to calibrate the module is simple. Turn on a video transmitter (on a
 
 
 
-###### Any use of this project implies agreement to the GNU General Public License
+##### Any use of this project implies agreement to the GNU General Public License
