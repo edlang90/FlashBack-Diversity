@@ -33,7 +33,7 @@ Now you can solder all of the SMD components. Most of these are 0402 so you'll n
 
 Programming the microcontroller is very straightforward. The PCB was designed to work as a STM32 Blue Pill, so you must select this option when programming it. It must be done in two steps:
 1. Flash the Arduino bootloader using the SWD pins on the PCB, and one of those ST Link emulators like [these](https://www.amazon.com/st-link-v2/s?k=st-link+v2). There are plenty of tutorials for flashing the Arduino Bootloader into an STM32 Blue Pill out there already, so I'll save myself some time.
-2. Now you can program the module through the micro USB port. Flash the [Flashback code](Code/Flashback/) as if it were a regular STM32 Blue Pill.
+2. Now you can program the module through the micro USB port. Flash the [Flashback code](Code/Flashback/) as if it were a regular STM32 Blue Pill. Remember you must open all three files in the Flashback folder for the compiling to work!
 
 ### 4. Final assembly
 
