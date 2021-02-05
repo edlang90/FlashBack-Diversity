@@ -3,8 +3,8 @@
 This project started out as a desire for a low cost diversity that would have good video quality. I started off looking into regular RX5808 video modules, but they have relatively low sensitivity. 
 
 Designed to interface with TBS Fusion [Hardware Upgrade](https://www.team-blacksheep.com/products/prod:fusion_hwupgrade)
-Credits:
 
+![Alt text](Hardware/Pictures/PCB front.jpg?raw=true "PCB Front")
 
 ## Features
 - Diversity
