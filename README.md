@@ -45,6 +45,13 @@ If everything is working fine, you can remove the adhesive from the Fusion modul
 
 The process to calibrate the module is simple. Turn on a video transmitter (on any channel) about a meter away. Without connecting any antennas, power the module while pressing BOTH the up and down buttons. Keep holding them for a couple of seconds while the module runs the calibration routine (it will take a while). When the calibration is done, a splash screen containing the calibration values should appear for a couple of seconds. If these are not zero, everything works and you're ready to fly!
 
+### Contact
+
+For any questions, comments, etc. please don't hesitate to contact me!
+
+Eduardo Lang
+eduardolang90@gmail.com
+
 
 
 ##### Any use of this project implies agreement to the GNU General Public License
