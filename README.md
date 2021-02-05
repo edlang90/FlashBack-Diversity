@@ -4,7 +4,7 @@ This project started out as a desire for a low cost diversity that would have go
 
 Designed to interface with TBS Fusion [Hardware Upgrade](https://www.team-blacksheep.com/products/prod:fusion_hwupgrade)
 
-![Alt text](Hardware/Pictures/PCB front.jpg?raw=true "PCB Front")
+![PCB Front](Hardware/Pictures/PCB front.png)
 
 ## Features
 - Diversity
