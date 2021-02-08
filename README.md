@@ -1,18 +1,23 @@
 # FlashBack Diversity
 
-This project started out as a desire for a low cost diversity that would have good video quality. I started off looking into regular RX5808 video modules, but they have relatively low sensitivity. 
+This project started out as a desire for a low cost diversity that would have good video quality. I started off looking into regular RX5808 video modules, but they have relatively low sensitivity. In my research process I found some "upgraded" rx5808 modules, and tried several different suppliers that claimed to sell these but sent me the regular RX5808 modules. I figured these would only be available to more high volume suppliers. Around this time TBS released a "Hardware Upgrade" module for their Fusion goggle receiver, and it caught my eye. It included TWO upgraded rx5808 modules, for the price of only $10. I ordered one to desolder these modules. See TBS Fusion [Hardware Upgrade](https://www.team-blacksheep.com/products/prod:fusion_hwupgrade)
 
-Designed to interface with TBS Fusion [Hardware Upgrade](https://www.team-blacksheep.com/products/prod:fusion_hwupgrade)
+During the time it took for the Fusion module to arrive, I changed my plan. I realized this module included a lot of parts I needed: The Goggle pins, the necessary connections for both rx5808 modules, and a handy little header connector to control everything. So instead of desoldering the modules, my plan was to design a control system that would mount onto this module. I followed the traces to check continuity and figured out the pinout, so now the fun part began! I started designing a PCB that could mount on top of the TBS hardware upgrade module and interface with the upgraded rx5808 modules and the video goggles.
 
+I had to decide what I wanted the module to have, and came up with the following list.
 
-## Features
-- Diversity
-- Autoscan
-- Channel search
-- Band search
-- Favorite channel selection
-- Spectrum scanner
+### Features
+- Diversity: Obviously. The idea of having two different antennas and selecting the one with best signal is a must.
+- OLED display: A small display that could help with navigation and general graphic functions.
+- Autoscan: Scan through all of the channels and select the one with highest RSSI
+- Channel search: Scroll through all the 48 channels of the 5 bands (A,B,E,F & R)
+- Band search: Scroll through all 8 channels of a selected band (A,B,E,F & R)
+- Favorite channel selection: Quick select a favorite channel (Currently can only be modified through changing the code)
+- Spectrum scanner: Show a bar graph with RSSI of all channels.
 
+All of these must be navigatable through a simple interface of three buttons: up, down and enter. The enter button can be long pressed to go back a page. All of this must be displayed on the oled, there is nothing going through the goggle feed. This adds simplicity and switching speed between antennas. 
+
+If you are interested in building this, I wrote a small tutorial here. For contact info check the end of this README.
 ## Build instructions
 
 ### 1. Purchase components
